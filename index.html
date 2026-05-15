@@ -46,37 +46,37 @@
         .delay-300 { animation-delay: 300ms; }
     </style>
 </head>
-<body class="font-sans text-gray-800 bg-gray-50 antialiased selection:bg-indigo-200 selection:text-indigo-900">
+<body class="font-sans text-gray-800 bg-gray-50 antialiased selection:bg-teal-200 selection:text-teal-900">
 
     <!-- 導覽列 -->
     <header class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- Logo / 姓名 -->
-                <div class="flex-shrink-0 flex items-center cursor-pointer font-bold text-xl text-indigo-600 tracking-wider" onclick="window.scrollTo(0,0)">
+                <div class="flex-shrink-0 flex items-center cursor-pointer font-bold text-xl text-teal-600 tracking-wider" onclick="window.scrollTo(0,0)">
                     FC.CHOU
                 </div>
                 
                 <!-- 桌面版選單 -->
                 <nav class="hidden md:flex space-x-8">
-                    <a href="#home" class="text-gray-600 hover:text-indigo-600 font-medium transition-colors">首頁</a>
-                    <a href="#about" class="text-gray-600 hover:text-indigo-600 font-medium transition-colors">關於我</a>
-                    <a href="#education" class="text-gray-600 hover:text-indigo-600 font-medium transition-colors">學歷</a>
-                    <a href="#experience" class="text-gray-600 hover:text-indigo-600 font-medium transition-colors">工作經歷</a>
-                    <a href="#projects" class="text-gray-600 hover:text-indigo-600 font-medium transition-colors">發表論文</a>
-                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 font-medium transition-colors">聯絡我</a>
+                    <a href="#home" class="text-gray-600 hover:text-teal-600 font-medium transition-colors">首頁</a>
+                    <a href="#about" class="text-gray-600 hover:text-teal-600 font-medium transition-colors">關於我</a>
+                    <a href="#education" class="text-gray-600 hover:text-teal-600 font-medium transition-colors">學歷</a>
+                    <a href="#experience" class="text-gray-600 hover:text-teal-600 font-medium transition-colors">工作經歷</a>
+                    <a href="#projects" class="text-gray-600 hover:text-teal-600 font-medium transition-colors">發表論文</a>
+                    <a href="#contact" class="text-gray-600 hover:text-teal-600 font-medium transition-colors">聯絡我</a>
                 </nav>
 
                 <!-- 聯絡按鈕 (桌面版) -->
                 <div class="hidden md:flex items-center">
-                    <a href="#contact" class="bg-indigo-600 text-white px-5 py-2 rounded-full font-medium hover:bg-indigo-700 transition-colors shadow-md hover:shadow-lg flex items-center gap-2">
-                        <i data-lucide="mail" class="w-4 h-4"></i> 寫信給我
+                    <a href="#contact" class="bg-teal-600 text-white px-5 py-2 rounded-full font-medium hover:bg-teal-700 transition-colors shadow-md hover:shadow-lg flex items-center gap-2">
+                        <i data-lucide="mail" class="w-4 h-4"></i> 聯絡我
                     </a>
                 </div>
 
                 <!-- 手機版選單按鈕 -->
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-indigo-600 focus:outline-none p-2">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-teal-600 focus:outline-none p-2">
                         <i data-lucide="menu" class="w-6 h-6"></i>
                     </button>
                 </div>
@@ -86,12 +86,12 @@
         <!-- 手機版下拉選單 -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">首頁</a>
-                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">關於我</a>
-                <a href="#education" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">學歷</a>
-                <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">工作經歷</a>
-                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">發表論文</a>
-                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50">聯絡我</a>
+                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50">首頁</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50">關於我</a>
+                <a href="#education" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50">學歷</a>
+                <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50">工作經歷</a>
+                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50">發表論文</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-teal-600 hover:bg-gray-50">聯絡我</a>
             </div>
         </div>
     </header>
@@ -103,17 +103,17 @@
                 
                 <!-- 左側文字 -->
                 <div class="w-full md:w-1/2 text-center md:text-left z-10 fade-in-up">
-                    <span class="inline-block py-1 px-3 rounded-full bg-indigo-50 text-indigo-600 text-sm font-semibold mb-6 border border-indigo-100">
+                    <span class="inline-block py-1 px-3 rounded-full bg-teal-50 text-teal-600 text-sm font-semibold mb-6 border border-teal-100">
                         👋 歡迎來到我的個人網站
                     </span>
                     <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 mb-6 leading-tight">
-                        哈囉，我是 <span class="text-indigo-600">周福強</span><br>
+                        哈囉，我是 <span class="text-teal-600">周福強</span><br>
                         長庚大學人工智慧研究中心<br>
-                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-teal-400">研究員</span>
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-emerald-400">研究員</span>
                     </h1>
 
                     <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                        <a href="#projects" class="px-8 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 flex items-center justify-center gap-2">
+                        <a href="#projects" class="px-8 py-3 bg-teal-600 text-white font-medium rounded-lg shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center gap-2">
                             <i data-lucide="book-open" class="w-5 h-5"></i> 查看論文
                         </a>
                     </div>
@@ -123,7 +123,7 @@
                 <div class="w-full md:w-1/2 flex justify-center z-10 fade-in-up delay-200">
                     <div class="relative w-72 h-72 md:w-96 md:h-96">
                         <!-- 裝飾用背景形狀 -->
-                        <div class="absolute inset-0 bg-gradient-to-tr from-indigo-200 to-teal-100 rounded-[3rem] transform rotate-6 scale-105"></div>
+                        <div class="absolute inset-0 bg-gradient-to-tr from-teal-200 to-teal-100 rounded-[3rem] transform rotate-6 scale-105"></div>
                         <!-- 個人頭像/圖片 -->
                         <img src="周福強.webp" alt="周福強的照片" onerror="this.src='https://ui-avatars.com/api/?name=福強+周&size=512&background=random'" class="relative w-full h-full object-cover rounded-[3rem] shadow-2xl border-4 border-white transition-transform duration-500 hover:scale-[1.02]">
                     </div>
@@ -131,7 +131,7 @@
             </div>
             
             <!-- 背景裝飾 -->
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-indigo-50 rounded-full blur-3xl opacity-50 -z-10"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-teal-50 rounded-full blur-3xl opacity-50 -z-10"></div>
         </div>
     </section>
 
@@ -140,16 +140,16 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">關於我</h2>
-                <div class="w-20 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+                <div class="w-20 h-1 bg-teal-600 mx-auto rounded-full"></div>
             </div>
 
             <div class="max-w-4xl mx-auto">
                 <div class="w-full text-center">
                     <h3 class="text-2xl font-bold text-gray-800 mb-6">自我介紹 / About Me</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 text-lg text-justify md:text-center">
+                    <p class="text-gray-600 leading-relaxed mb-6 text-lg text-left">
                         周福強博士現職長庚大學人工智慧中心博士級研究助理，專長為智慧醫療、訊號處理、人工智慧、自然語言處理等，曾任職飛利浦、宏達電、華為等公司，負責各種創新產品的研究與開發，也曾於銘傳大學、龍華科技大學擔任專任（案）教職，教授各式課程。周博士於1999年自台灣大學取得電機工程博士學位後，除了短期擔任教職外，主要於產業界服務，期間通過了有11個美國專利，與合計超過50個各國專利。並於宏達電任職期間，負責一個世界級醫療競賽（Tricorder），最後獲得亞軍以及100萬美元的獎金。綜觀周博士的經歷，除了具有相當的教學與研究能力外，也具有相當豐富的產業實務經驗。 
                     </p>
-                    <p class="text-gray-600 leading-relaxed text-lg text-justify md:text-center">
+                    <p class="text-gray-600 leading-relaxed text-lg text-left">
                         Dr. Fu-Chiang Chou is currently a doctoral research assistant at the Center for Artificial Intelligence, Chang Gung University. His expertise includes smart healthcare, signal processing, artificial intelligence, and natural language processing. He has previously worked for companies such as Philips, HTC, and Huawei, where he was responsible for the research and development of various innovative products. He has also held full-time (or part-time) faculty positions at Ming Chuan University and Lung Hwa University of Science and Technology, teaching various courses. After obtaining his Ph.D. in Electrical Engineering from National Taiwan University in 1999, aside from short-term teaching positions, he primarily served in the industry, during which time he obtained 11 US patents and over 50 patents in various countries. During his time at HTC, he led a world-class medical competition (Tricorder), ultimately winning second place and a prize of US$1 million. Dr. Chou's experience demonstrates not only considerable teaching and research abilities but also extensive practical industry experience.
                     </p>
                 </div>
@@ -162,19 +162,19 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">學歷</h2>
-                <div class="w-20 h-1 bg-indigo-600 mx-auto rounded-full mb-6"></div>
+                <div class="w-20 h-1 bg-teal-600 mx-auto rounded-full mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto">我的學術背景與學習歷程。</p>
             </div>
 
             <div class="max-w-4xl mx-auto space-y-8">
                 <!-- EMBA -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col md:flex-row items-center md:items-start gap-6">
-                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <div class="w-16 h-16 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center flex-shrink-0">
                         <i data-lucide="graduation-cap" class="w-8 h-8"></i>
                     </div>
                     <div class="flex-1 text-center md:text-left">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">國立台灣大學</h3>
-                        <p class="text-lg font-medium text-indigo-600 mb-2">國際企業學系 EMBA</p>
+                        <p class="text-lg font-medium text-teal-600 mb-2">國際企業學系 EMBA</p>
                         <p class="text-gray-500 mb-4 flex items-center justify-center md:justify-start gap-2">
                             <i data-lucide="calendar" class="w-4 h-4"></i> 2011 - 2013
                         </p>
@@ -203,12 +203,12 @@
 
                 <!-- 大學學歷 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col md:flex-row items-center md:items-start gap-6">
-                    <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <div class="w-16 h-16 bg-cyan-100 text-cyan-600 rounded-2xl flex items-center justify-center flex-shrink-0">
                         <i data-lucide="award" class="w-8 h-8"></i>
                     </div>
                     <div class="flex-1 text-center md:text-left">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">國立台灣大學</h3>
-                        <p class="text-lg font-medium text-purple-600 mb-2">電機工程學系 學士</p>
+                        <p class="text-lg font-medium text-cyan-600 mb-2">電機工程學系 學士</p>
                         <p class="text-gray-500 mb-4 flex items-center justify-center md:justify-start gap-2">
                             <i data-lucide="calendar" class="w-4 h-4"></i> 1985 - 1989
                         </p>
@@ -226,7 +226,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">工作經歷</h2>
-                <div class="w-20 h-1 bg-indigo-600 mx-auto rounded-full mb-6"></div>
+                <div class="w-20 h-1 bg-teal-600 mx-auto rounded-full mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto">我的職業生涯與工作經驗。</p>
             </div>
 
@@ -267,12 +267,12 @@
 
                 <!-- 經歷 3: 南京豐生永康科技有限公司 (2020-) -->
                 <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col md:flex-row items-center md:items-start gap-6">
-                    <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <div class="w-16 h-16 bg-cyan-100 text-cyan-600 rounded-2xl flex items-center justify-center flex-shrink-0">
                         <i data-lucide="users" class="w-8 h-8"></i>
                     </div>
                     <div class="flex-1 text-center md:text-left">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">南京豐生永康科技有限公司</h3>
-                        <p class="text-lg font-medium text-purple-600 mb-2">技術顧問</p>
+                        <p class="text-lg font-medium text-cyan-600 mb-2">技術顧問</p>
                         <p class="text-gray-500 mb-4 flex items-center justify-center md:justify-start gap-2">
                             <i data-lucide="calendar" class="w-4 h-4"></i> 2020 - 
                         </p>
@@ -285,12 +285,12 @@
 
                 <!-- 經歷 4: 三度智慧科技股份有限公司 (2018-2020) -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col md:flex-row items-center md:items-start gap-6">
-                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+                    <div class="w-16 h-16 bg-teal-100 text-teal-600 rounded-2xl flex items-center justify-center flex-shrink-0">
                         <i data-lucide="cpu" class="w-8 h-8"></i>
                     </div>
                     <div class="flex-1 text-center md:text-left">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">三度智慧科技股份有限公司 (AiCorder Inc.)</h3>
-                        <p class="text-lg font-medium text-indigo-600 mb-2">創辦人兼技術長</p>
+                        <p class="text-lg font-medium text-teal-600 mb-2">創辦人兼技術長</p>
                         <p class="text-gray-500 mb-4 flex items-center justify-center md:justify-start gap-2">
                             <i data-lucide="calendar" class="w-4 h-4"></i> 2018 - 2020
                         </p>
@@ -308,17 +308,17 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">著作與發表</h2>
-                <div class="w-20 h-1 bg-indigo-600 mx-auto rounded-full mb-6"></div>
+                <div class="w-20 h-1 bg-teal-600 mx-auto rounded-full mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto">這裡展示了我在人工智慧與跨領域研究之學術發表。</p>
             </div>
 
             <!-- 期刊論文 (Journal Papers) -->
             <div class="mb-16">
                 <h3 class="text-2xl font-bold text-gray-800 mb-8 flex items-center justify-center md:justify-start gap-3">
-                    <i data-lucide="book-open" class="text-indigo-600 w-6 h-6"></i> 期刊論文
+                    <i data-lucide="book-open" class="text-teal-600 w-6 h-6"></i> 期刊論文
                 </h3>
                 <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-10">
-                    <ul class="space-y-6 text-gray-700 leading-relaxed text-justify md:text-left list-decimal list-inside marker:text-indigo-600 marker:font-bold">
+                    <ul class="space-y-6 text-gray-700 leading-relaxed text-justify md:text-left list-decimal list-inside marker:text-teal-600 marker:font-bold">
                         <li class="pl-2">
                             Chiu-yu Tseng and Fu-chiang Chou, "Machine Readable Phonetic Transcription System for Chinese Dialects Spoken in Taiwan," <span class="italic text-gray-900 font-medium">Journal of Acoustic Society of Japan(E)</span>, Vol. 20, No.3, pp. 215-223, 1999
                         </li>
@@ -402,7 +402,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">已獲證發明專利</h2>
-                <div class="w-20 h-1 bg-indigo-600 mx-auto rounded-full mb-6"></div>
+                <div class="w-20 h-1 bg-teal-600 mx-auto rounded-full mb-6"></div>
                 <p class="text-gray-600 max-w-2xl mx-auto">總計 55 項獲證發明專利：中國 14 項、臺灣 26 項、美國 11 項、歐盟 4 項。</p>
             </div>
 
@@ -474,10 +474,10 @@
                 <!-- 美國專利 -->
                 <div>
                     <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center justify-center md:justify-start gap-3">
-                        <i data-lucide="award" class="text-purple-600 w-6 h-6"></i> 美國專利 (11項)
+                        <i data-lucide="award" class="text-cyan-600 w-6 h-6"></i> 美國專利 (11項)
                     </h3>
                     <div class="w-full bg-gray-50 rounded-2xl shadow-sm border border-gray-100 p-8 md:p-10">
-                        <ul class="space-y-4 text-gray-700 leading-relaxed text-justify md:text-left list-decimal list-inside marker:text-purple-600 marker:font-bold text-sm md:text-base">
+                        <ul class="space-y-4 text-gray-700 leading-relaxed text-justify md:text-left list-decimal list-inside marker:text-cyan-600 marker:font-bold text-sm md:text-base">
                             <li class="pl-2">Ming-Yu Chen and Fu-Chiang Chou, AC adapter and the control method thereof, US Patent No. 8054661B2, Date of Patent: 2011-01-08</li>
                             <li class="pl-2">Fu-Chiang Chou, Methods and systems for screening incoming calls, US Patent No. 8014500B2, Date of Patent: 2011-09-06</li>
                             <li class="pl-2">Fu-Chiang Chou, Mobile phone and dialing method thereof, US Patent No. 8437804B2, Date of Patent: 2013-05-07</li>
@@ -513,31 +513,31 @@
     </section>
 
     <!-- 聯絡我 (Contact) -->
-    <section id="contact" class="py-20 bg-indigo-900 text-white relative overflow-hidden">
+    <section id="contact" class="py-20 bg-teal-900 text-white relative overflow-hidden">
         <!-- 背景裝飾 -->
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-            <div class="absolute -top-24 -right-24 w-96 h-96 bg-indigo-600 rounded-full blur-3xl opacity-50"></div>
-            <div class="absolute -bottom-24 -left-24 w-72 h-72 bg-purple-600 rounded-full blur-3xl opacity-50"></div>
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-teal-600 rounded-full blur-3xl opacity-50"></div>
+            <div class="absolute -bottom-24 -left-24 w-72 h-72 bg-cyan-600 rounded-full blur-3xl opacity-50"></div>
         </div>
 
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-10">聯絡我</h2>
             
             <div class="flex flex-col gap-6 mb-12 max-w-lg mx-auto bg-white/10 p-8 rounded-3xl backdrop-blur-md shadow-lg border border-white/20">
-                <a href="mailto:fcchou@cgu.edu.tw" class="flex items-center gap-4 text-lg hover:text-indigo-200 transition-colors">
-                    <div class="w-12 h-12 bg-indigo-800/50 rounded-full flex items-center justify-center flex-shrink-0">
+                <a href="mailto:fcchou@cgu.edu.tw" class="flex items-center gap-4 text-lg hover:text-teal-200 transition-colors">
+                    <div class="w-12 h-12 bg-teal-800/50 rounded-full flex items-center justify-center flex-shrink-0">
                         <i data-lucide="mail" class="w-6 h-6"></i>
                     </div>
                     <span class="text-left font-medium break-all">fcc@cgu.edu.tw</span>
                 </a>
                 <div class="flex items-center gap-4 text-lg">
-                    <div class="w-12 h-12 bg-indigo-800/50 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div class="w-12 h-12 bg-teal-800/50 rounded-full flex items-center justify-center flex-shrink-0">
                         <i data-lucide="phone" class="w-6 h-6"></i>
                     </div>
                     <span class="text-left font-medium">886-3-2118800#3003 Ext 15</span>
                 </div>
                 <div class="flex items-center gap-4 text-lg">
-                    <div class="w-12 h-12 bg-indigo-800/50 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div class="w-12 h-12 bg-teal-800/50 rounded-full flex items-center justify-center flex-shrink-0">
                         <i data-lucide="map-pin" class="w-6 h-6"></i>
                     </div>
                     <span class="text-left font-medium">長庚大學人工智慧研究中心<br class="hidden sm:block">（管理大樓11樓）</span>
